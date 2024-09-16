@@ -1,0 +1,21 @@
+{
+  "name": "chart-generator-echart-bun",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "play": "bun run ./src/play.ts",
+    "main": "bun --watch run ./src/main.ts",
+    "fetch": "bun run ./src/fetch.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "echarts": "^5.5.1",
+    "elysia": "^1.1.12",
+    "sharp": "^0.33.5"
+  }
+}
